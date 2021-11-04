@@ -1,0 +1,167 @@
+.flex-container{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.left {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    
+
+}
+
+.middle {
+    margin-left: 2%;
+    margin-right:2%;
+    margin-top: 5%;
+    color:white;
+   
+}
+
+.right {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a{
+    color:white;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.nav li{
+    padding: 8px;
+    margin-bottom: 10px;
+    display: block;
+    border:solid white;
+}
+
+.nav li:hover{
+    background-color:dimgray;
+}
+
+.subnav{
+    font-size: 80%;
+    font-style: italic;
+    display: none;
+}
+.subnav li{
+    border-radius: 5px;
+}
+
+.subnav li:hover{
+    background-color: silver;
+}
+
+.nav li:hover ul{
+    display:block;
+    
+}
+
+.navdogs{
+    font-size: 60%;
+    font-style: italic;
+}
+
+.navdogs li:hover{
+    background-color: dimgray;
+}
+
+.nav li:hover ul ul{
+    display: none;
+}
+
+.nav li li:hover ul {
+    display: block;
+}
+.underline{
+    text-decoration: underline;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section p {
+    color:white;
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+span {
+    font-weight: bold;
+}
+
+.contactimg{
+    max-width: 12%;
+    border-radius: 10px;
+}
+
+.asideimg{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    font-size: 0.75em;
+}
+
+@media (min-width: 600px) {
+
+.flex-container {
+    flex-direction: row;    
+}
+
+.contactimg{
+    max-width: 13%;
+    border-radius: 10px;
+}
+
+.left {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    width: 33.3%
+
+}
+
+.middle {
+    margin-left: 2%;
+    margin-right:2%;
+    margin-top: 5%;
+    color:white;
+    width: 33.3%;
+}
+
+.right {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    width: 33.3%;
+}
+}
